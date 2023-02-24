@@ -1,7 +1,6 @@
 package shape;
 
-public class Polygon implements Shape {
-    @Override
+public class Polygon extends Shape {
     public String render() {
         return "Polygon";
     }

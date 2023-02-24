@@ -1,7 +1,6 @@
 package shape;
 
-public class Circle  implements Shape {
-    @Override
+public class Circle  extends Shape {
     public String render() {
         return "Circle";
     }

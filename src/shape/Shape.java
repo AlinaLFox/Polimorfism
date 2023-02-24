@@ -1,6 +1,8 @@
 package shape;
 
-public interface Shape {
+public class Shape {
 
-     String render();
+    public String render() {
+         return "Shape";
+    }
 }
